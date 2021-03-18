@@ -20,6 +20,4 @@ if (favouritePet == 'cat'){
     document.write('<img src="images/dog.jpg"/');
 } else{
     confirm("Choose between a cat or a dog, and refresh the page");
-
-    window.location.reload();
 }
