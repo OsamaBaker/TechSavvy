@@ -32,12 +32,12 @@ for (var i = 0; i < numberOfBoxes; i++) {
 }
 
 document.write(result)
-// var favouritePet = prompt("What is your favourite pet?")
+var favouritePet = prompt("What is your favourite pet?")
 
-// if (favouritePet == 'cat'){
-//     document.write('<img src="images/cat.png"/');
-// } else if(favouritePet == 'dog'){
-//     document.write('<img src="images/dog.jpg"/');
-// } else{
-//     confirm("Choose between a cat or a dog, and refresh the page");
-// }
+if (favouritePet == 'cat'){
+    document.write('<img src="images/cat.png"/');
+} else if(favouritePet == 'dog'){
+    document.write('<img src="images/dog.jpg"/');
+} else{
+    confirm("Choose between a cat or a dog, and refresh the page");
+}
