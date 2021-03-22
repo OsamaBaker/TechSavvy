@@ -64,8 +64,9 @@ footer{
     font-size: 25px;
     vertical-align: center;
     line-height: 5px;
-    position: absolute;
-    top: 720px;
+    position: fixed;
+    top: 690px;
     width: 96%;
     padding: 30px;
 }
+
