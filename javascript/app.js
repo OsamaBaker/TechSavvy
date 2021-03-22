@@ -30,7 +30,7 @@ var getNumberOfBoxes = function () {
     if (favouriteColor == 'red') {
         boxes = '<img src="images/red-box.webp">';
     } else if (favouriteColor == 'blue') {
-        boxes = '<img src="images/blue-box.png"/';
+        boxes = '<img src="images/blue-box.png">';
     }
     
     for (var i = 0; i < numberOfBoxes; i++) {
