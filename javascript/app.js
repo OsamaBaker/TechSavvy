@@ -20,6 +20,8 @@ function getFavouriteColor(favouriteColor){
 
 }
 
+getFavouriteColor();
+
 var getNumberOfBoxes = function () {
 
     var numberOfBoxes = prompt('how many boxes do you want?');
